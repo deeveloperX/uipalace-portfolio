@@ -73,10 +73,62 @@ a{
   font-size: 3rem;
   text-align: center;
 }
+#text1 > h1{
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.gap-2 {
+  gap: 0.5rem; /* Adjust as needed */
+}
+
+.w-14 {
+  width: 3.5rem; /* Adjust as needed */
+}
+
+.h-14 {
+  height: 3.5rem; /* Adjust as needed */
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
+
+.bg-radial {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-gradient-to-tr {
+  background: conic-gradient(from 0deg, violet, indigo 30%, blue 50%, green 60%, yellow 70%, orange 80%, red 100%);
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+[animation-delay\:.7s] {
+  animation-delay: 0.7s;
+}
+
+@keyframes spin {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+
 
 @media screen and (max-width: 900px) {
   #text1 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 
