@@ -592,6 +592,30 @@ input:checked + .slider-nav:before {
   font-size: 2rem;
 }
 
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px; /* Adjust the gap between items as needed */
+}
+
+.proj {
+  height: 100px; /* Adjust the height as needed */
+  width: 70%;
+  background-color: #ddd; /* Just for visualization, replace with your content styling */
+}
+
+/* Media query for smaller screens (e.g., mobile) */
+@media screen and (max-width: 600px) {
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+
+
+
+
 
 .four {
   background-color: transparent;
